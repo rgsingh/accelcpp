@@ -1,8 +1,8 @@
-#include "colormod.h"
-#include <iostream>
-#include <string>
 
-int main() {
+#include "section_2_3.h"
+
+void Section_2_3::Run()
+{
 
 	Color::Modifier red(Color::FG_RED);
 	Color::Modifier white(Color::FG_WHITE);
@@ -14,6 +14,7 @@ int main() {
 	std::cout << prompt;
 	std::string name;
 	std::cin >> name;
+
 
 	const std::string greeting = "Yo, yo, yo! 'Sup, " + name + question;
 	const int pad = 1;
@@ -38,5 +39,4 @@ int main() {
 		std::cout << std::endl;
 	}
 
-	return 0;
 }
