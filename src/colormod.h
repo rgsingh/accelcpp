@@ -1,3 +1,6 @@
+#ifndef COLORMOD_
+#define COLORMOD_
+
 #include <ostream>
 namespace Color {
  enum Code {
@@ -35,3 +38,5 @@ namespace Color {
  };
 
 }
+
+#endif COLORMOD_
